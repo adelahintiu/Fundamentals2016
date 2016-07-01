@@ -14,19 +14,7 @@
         static void Main(string[] args)
         {
             
-            #region part1 - Very short presentation, Hello World, class structure
-
-            Console.WriteLine("Part 1: \n");
-
-            // my first program in C# 
-
-            // WriteLine is a method of the Console class defined in the System namespace. This statement causes the message "Hello, World!" to be displayed on the screen.
-            Console.WriteLine("Hello World ");
-
-            // This makes the program wait for a key press and it prevents the screen from running and closing quickly when the program is launched from Visual Studio.
-            Console.ReadKey();
-
-            #endregion
+           
 
 
             #region part2 - class, namespace, dynamic type, static methodes, convertions, constant, readonly, struct, generics, enums
@@ -82,7 +70,7 @@
             #endregion
 
 
-            #region satatic class, static methods, dynamic type example
+            #region static class, static methods, dynamic type example
 
             // dinamyc type: (with static class, static methode)
             Console.WriteLine();
@@ -93,7 +81,7 @@
 
             #region var, boxing and unboxing, conversion
 
-            var val = 1;
+            int val = 1;
             object obj = val; // boxing;
             int i = (int)obj; // unboxing;
 

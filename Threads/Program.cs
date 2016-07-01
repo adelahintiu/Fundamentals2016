@@ -15,7 +15,7 @@ namespace Threads
             //ThreadTest.Execute();
             //SharringDataTest.Execute();
             //LockerObjectTest.Execute();
-            //JoinSleepTest.Execute();
+            JoinSleepTest.Execute();
             //CreatingAndStartingThreads.Execute();
 
 
